@@ -1,0 +1,74 @@
+syntax = "proto3";
+option go_package = "github.com/sundogrd/content";
+package content;
+
+enum ContentType {
+  HTML = 0;
+  MARKDOWN = 1;
+  TEXT = 2;
+  SDC = 3;  // RESERVED.sundog-content format
+}
+
+message ContentInfo {
+  string id = 1;
+  string app_id = 2;
+  string title = 3;
+
+  message ContentUserInfo {
+    string id = 1;
+    string app_id = 2;
+    string name = 3;
+    string extra = 4;
+  }
+  ContentUserInfo user = 4;
+
+  ContentType content_type = 5;
+  string content_body = 6; // Is string Ojbk ?
+  string extra = 7;
+  // ... other properties
+}
+
+message GetContentRequest {
+  string id = 1;
+}
+message GetContentResponse {
+  string id = 1;
+}
+message ListContentsRequest {
+  string query = 1;
+  int64 page = 2;
+  int64 page_size = 3; 
+}
+message ListContentsResponse {
+  repeated ContentInfo contents = 1;
+  int64 total = 2;
+}
+message CreateContentRequest {
+  string id = 1;
+}
+message CreateContentResponse {
+  ContentInfo content = 1;
+}
+message UpdateContentRequest {
+  string title = 1;
+  ContentType content_type = 2;
+  string content_body = 3; // Is string Ojbk ?
+  string extra = 4;
+}
+message UpdateContentResponse {
+  ContentInfo content = 1;
+}
+message DeleteContentRequest {
+  string id = 1;
+}
+message DeleteContentResponse {
+  string status = 1;
+}
+
+service Content {
+  rpc GetContent(GetContentRequest) returns (GetContentResponse) {}
+  rpc ListContents(ListContentsRequest) returns (ListContentsResponse) {}
+  rpc CreateContent(CreateContentRequest) returns (CreateContentResponse) {}
+  rpc UpdateContent(UpdateContentRequest) returns (UpdateContentResponse) {}
+  rpc DeleteContent(DeleteContentRequest) returns (DeleteContentResponse) {}
+}

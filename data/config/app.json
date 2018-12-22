@@ -1,0 +1,20 @@
+{
+  "name": "App",
+  "port": 8086,
+  "db": {
+    "type": "postgresql",
+    "options": {
+      "user": "postgres",
+      "password": "SgQ6Vhc3u015xOL09se9",
+      "host": "db",
+      "port": 5432,
+      "dbname": "postgres",
+      "connectTimeout": 60
+    }
+  },
+  "redis": {
+    "host": "redis",
+    "port": 6379,
+    "password": "CCq2Si39hdgY6ajP5vHL"
+  }
+}
