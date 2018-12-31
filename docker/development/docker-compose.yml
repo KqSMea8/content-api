@@ -4,8 +4,8 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: api-dev
+    image: pathfinder-api-dev
     volumes:
-     - ../../:/go/src/github.com/sundogrd/creator-service
-    environment:
-      - GO111MODULE=on
+     - ../../:/go/src/code.byted.org/learning_fe/pathfinder-api
+    # environment:
+      # - GO111MODULE=on

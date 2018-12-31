@@ -5,10 +5,10 @@ GONAME=api
 default: build
 
 start:
-	@GIN_MODE=release ./bin/$(GONAME) 
+	@GIN_MODE=release ./bin/$(GONAME)
 
 build:
-	@go build -o bin/$(GONAME) 
+	@go build -o bin/$(GONAME)
 
 run:
 	@./bin/$(GONAME) 
@@ -37,7 +37,7 @@ docker-image-staging: docker-build
 	@docker build -t my-api:staging .
 
 docker-image-dev:
-	@docker-compose -f docker/development/docker-compose.yml run --rm api
+	@docker-compose -f docker-compose.yml run --rm api
 
 start-docker-dev:
 	@docker-compose up -d

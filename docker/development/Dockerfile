@@ -1,6 +1,6 @@
 FROM golang:1.11-alpine3.8
 
-ENV appdir /go/src/github.com/sundogrd/creator-service
+ENV appdir /go/src/code.byted.org/learning_fe/pathfinder-api
 RUN mkdir -p $appdir
 WORKDIR $appdir
 

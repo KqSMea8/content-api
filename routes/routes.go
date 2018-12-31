@@ -7,5 +7,5 @@ import (
 // Routes ...
 func Routes(r *gin.Engine) {
 	Hello(r)
-	Gql(r)
+	Content(r)
 }

@@ -1,13 +1,12 @@
 package routes
 
 import (
-	"github.com/sundogrd/creator-service/api"
+	"code.byted.org/learning_fe/pathfinder-api/handler"
 
 	"github.com/gin-gonic/gin"
 )
 
 // Hello ...
 func Hello(r *gin.Engine) {
-	r.GET("/hello", api.Hello)
-	r.GET("/graphql", api.gql)
+	r.GET("/hello", handler.Hello)
 }

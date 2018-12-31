@@ -7,7 +7,8 @@ import (
 	"github.com/spf13/viper"
 )
 
-func init() {
+// Init ...
+func Init() {
 	viper.SetConfigName("app")
 	viper.AddConfigPath("./data/config/")
 	err := viper.ReadInConfig()

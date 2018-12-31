@@ -3,11 +3,11 @@ package redis
 import (
 	"github.com/go-redis/redis"
 
-	"github.com/sundogrd/creator-service/utils/config"
-	"github.com/sundogrd/creator-service/utils/log"
+	"code.byted.org/learning_fe/pathfinder-api/utils/config"
+	// "code.byted.org/learning_fe/pathfinder-api/utils/log"
 )
 
-var dbs map[int]*redis.Client
+var dbs map[int]*redis.Client = make(map[int]*redis.Client)
 
 // Client Redis client
 type Client = redis.Client
@@ -15,13 +15,16 @@ type Client = redis.Client
 // Options ...
 type Options = redis.Options
 
-func init() {
-	dbs = make(map[int]*redis.Client)
-}
+// func init() error {
+// 	dbs = make(map[int]*redis.Client)
+// 	return err
+// }
 
 // Init 初始化数据库
-func Init(db int) {
-	dbs[db] = Conn(db)
+func Init(db int) error {
+	var err error
+	dbs[db], err = Conn(db)
+	return err
 }
 
 // DB 获取连接的实例
@@ -43,7 +46,7 @@ func ConnectDB(opt *redis.Options) (*redis.Client, error) {
 }
 
 // Connect 用配置文件连接数据库
-func Connect(db int, prePath string) *redis.Client {
+func Connect(db int, prePath string) (*redis.Client, error) {
 	host := config.GetString(prePath + "host")
 	port := config.GetString(prePath + "port")
 	password := config.GetString(prePath + "password")
@@ -54,12 +57,12 @@ func Connect(db int, prePath string) *redis.Client {
 		DB:       db,
 	})
 	if err != nil {
-		log.GetLog().WithFields(log.Fields{"func": "redis.Connect"}).Fatal(err)
+		return nil, err
 	}
-	return client
+	return client, nil
 }
 
 // Conn 用配置文件的默认参数连接数据库
-func Conn(db int) *redis.Client {
+func Conn(db int) (*redis.Client, error) {
 	return Connect(db, "redis.")
 }

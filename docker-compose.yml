@@ -1,29 +1,19 @@
 version: '2'
 services:
-  api:
-    build:
-      context: .
-      dockerfile: docker/development/Dockerfile
-    image: api-dev
-    command: make dev 
-    ports:
-      - 8086:8086
-    volumes:
-      - .:/go/src/github.com/sundogrd/creator-service
-    depends_on:
-      - db
-      - redis
-    environment:
-      - GO111MODULE=on
   db:
-    image: postgres:9.6-alpine
+    image: mysql:5.7
     volumes:
-      - ./data/postgresql:/var/lib/postgresql/data/pgdata
+      - ./data/mysql:/var/lib/mysql/data/mysqldata
     ports:
-      - 5432:5432
+      - 3306:3306
+    command: --default-authentication-plugin=mysql_native_password
+    restart: always
     environment:
-      - POSTGRES_PASSWORD=SgQ6Vhc3u015xOL09se9
-      - PGDATA=/var/lib/postgresql/data/pgdata
+      - MYSQL_ROOT_PASSWORD=example
+      - MYSQL_DATABASE=pathfinder
+      - MYSQL_USER=bytedance
+      - MYSQL_PASSWORD=bytedancePGC
+      - MYSQLDATA=/var/lib/mysql/data/mysqldata
   redis:
     image: redis:4-alpine
     volumes:
@@ -32,3 +22,23 @@ services:
     ports:
       - 6379:6379
     command: redis-server /usr/local/etc/redis/redis.conf
+  api:
+    build:
+      context: .
+      dockerfile: docker/development/Dockerfile
+    image: pathfinder-api-dev
+    command: make dev 
+    ports:
+      - 8086:8086
+    volumes:
+      - .:/go/src/code.byted.org/learning_fe/pathfinder-api
+    depends_on:
+      - db
+      - redis
+    links:
+      - db
+      - redis
+# networks:
+  # default:
+    # Use a custom driver
+    # driver: custom-driver-1

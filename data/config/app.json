@@ -2,18 +2,18 @@
   "name": "App",
   "port": 8086,
   "db": {
-    "type": "postgresql",
+    "type": "mysql",
     "options": {
-      "user": "postgres",
-      "password": "SgQ6Vhc3u015xOL09se9",
-      "host": "db",
-      "port": 5432,
-      "dbname": "postgres",
-      "connectTimeout": 60
+      "user": "bytedance",
+      "password": "bytedancePGC",
+      "host": "localhost",
+      "port": 3306,
+      "dbname": "pathfinder",
+      "connectTimeout": "10s"
     }
   },
   "redis": {
-    "host": "redis",
+    "host": "localhost",
     "port": 6379,
     "password": "CCq2Si39hdgY6ajP5vHL"
   }
