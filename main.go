@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"os"
 
-	"code.byted.org/learning_fe/pathfinder-api/utils/config"
+	"github.com/sundogrd/content-api/utils/config"
 
-	"code.byted.org/learning_fe/pathfinder-api/routes"
+	"github.com/sundogrd/content-api/routes"
 
-	"code.byted.org/learning_fe/pathfinder-api/utils/db"
-	"code.byted.org/learning_fe/pathfinder-api/utils/redis"
+	"github.com/sundogrd/content-api/utils/db"
+	"github.com/sundogrd/content-api/utils/redis"
 	"github.com/gin-gonic/gin"
 )
 

@@ -2,9 +2,9 @@ package content_test
 
 import (
 	"bytes"
-	"code.byted.org/learning_fe/pathfinder-api/services/content"
-	"code.byted.org/learning_fe/pathfinder-api/utils/config"
-	"code.byted.org/learning_fe/pathfinder-api/utils/db"
+	"github.com/sundogrd/content-api/services/content"
+	"github.com/sundogrd/content-api/utils/config"
+	"github.com/sundogrd/content-api/utils/db"
 	"context"
 	"github.com/spf13/viper"
 	"testing"

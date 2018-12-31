@@ -1,7 +1,7 @@
 package db_test
 
 import (
-	// "code.byted.org/learning_fe/pathfinder-api/utils/db"
+	// "github.com/sundogrd/content-api/utils/db"
 	"testing"
 )
 

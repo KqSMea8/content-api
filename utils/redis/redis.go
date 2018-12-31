@@ -3,8 +3,8 @@ package redis
 import (
 	"github.com/go-redis/redis"
 
-	"code.byted.org/learning_fe/pathfinder-api/utils/config"
-	// "code.byted.org/learning_fe/pathfinder-api/utils/log"
+	"github.com/sundogrd/content-api/utils/config"
+	// "github.com/sundogrd/content-api/utils/log"
 )
 
 var dbs map[int]*redis.Client = make(map[int]*redis.Client)

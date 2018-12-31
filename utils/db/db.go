@@ -1,7 +1,7 @@
 package db
 
 import (
-	"code.byted.org/learning_fe/pathfinder-api/utils/config"
+	"github.com/sundogrd/content-api/utils/config"
 	"github.com/jinzhu/gorm"
 	_ "github.com/jinzhu/gorm/dialects/mysql"
 )

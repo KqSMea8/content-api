@@ -8,8 +8,8 @@ services:
       - 8086:8086
     restart: always
     volumes:
-      - ./data/config/app.json:/go/src/code.byted.org/learning_fe/pathfinder-api/data/config/app.json
-      - ./data/logs:/go/src/code.byted.org/learning_fe/pathfinder-api/data/logs
+      - ./data/config/app.json:/go/src/github.com/sundogrd/content-api/data/config/app.json
+      - ./data/logs:/go/src/github.com/sundogrd/content-api/data/logs
     depends_on:
       - db
       - redis

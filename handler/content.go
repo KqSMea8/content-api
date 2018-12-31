@@ -1,7 +1,7 @@
 package handler
 
 import (
-	"code.byted.org/learning_fe/pathfinder-api/services/content"
+	"github.com/sundogrd/content-api/services/content"
 	"github.com/gin-gonic/gin"
 )
 

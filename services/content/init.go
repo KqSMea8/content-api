@@ -1,7 +1,7 @@
 package content
 
 import (
-	dbUtils "code.byted.org/learning_fe/pathfinder-api/utils/db"
+	dbUtils "github.com/sundogrd/content-api/utils/db"
 	"sync"
 )
 

@@ -1,7 +1,7 @@
 package routes
 
 import (
-	"code.byted.org/learning_fe/pathfinder-api/handler"
+	"github.com/sundogrd/content-api/handler"
 
 	"github.com/gin-gonic/gin"
 )

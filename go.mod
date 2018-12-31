@@ -1,4 +1,4 @@
-module code.byted.org/learning_fe/pathfinder-api
+module github.com/sundogrd/content-api
 
 require (
 	github.com/gin-contrib/sse v0.0.0-20170109093832-22d885f9ecc7 // indirect

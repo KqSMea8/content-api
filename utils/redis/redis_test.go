@@ -1,7 +1,7 @@
 package redis_test
 
 import (
-	"code.byted.org/learning_fe/pathfinder-api/utils/redis"
+	"github.com/sundogrd/content-api/utils/redis"
 	"testing"
 )
 

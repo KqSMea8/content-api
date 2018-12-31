@@ -196,46 +196,46 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestContentUpdate in code.byted.org/learning_fe/pathfinder-api/services/content">
-    <configuration name="TestContentCreate in code.byted.org/learning_fe/pathfinder-api/services/content" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.TestContentCreate in github.com/sundogrd/content-api/services/content">
+    <configuration name="TestContentCreate in github.com/sundogrd/content-api/services/content" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="pathfinder-api" />
       <working_directory value="$PROJECT_DIR$/services/content" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="code.byted.org/learning_fe/pathfinder-api/services/content" />
+      <package value="github.com/sundogrd/content-api/services/content" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
       <pattern value="^TestContentCreate$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestContentDelete in code.byted.org/learning_fe/pathfinder-api/services/content" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestContentDelete in github.com/sundogrd/content-api/services/content" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="pathfinder-api" />
       <working_directory value="$PROJECT_DIR$/services/content" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="code.byted.org/learning_fe/pathfinder-api/services/content" />
+      <package value="github.com/sundogrd/content-api/services/content" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
       <pattern value="^TestContentDelete$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestContentFindOne in code.byted.org/learning_fe/pathfinder-api/services/content" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestContentFindOne in github.com/sundogrd/content-api/services/content" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="pathfinder-api" />
       <working_directory value="$PROJECT_DIR$/services/content" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="code.byted.org/learning_fe/pathfinder-api/services/content" />
+      <package value="github.com/sundogrd/content-api/services/content" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
       <pattern value="^TestContentFindOne$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestContentUpdate in code.byted.org/learning_fe/pathfinder-api/services/content" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestContentUpdate in github.com/sundogrd/content-api/services/content" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="pathfinder-api" />
       <working_directory value="$PROJECT_DIR$/services/content" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="code.byted.org/learning_fe/pathfinder-api/services/content" />
+      <package value="github.com/sundogrd/content-api/services/content" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
       <pattern value="^TestContentUpdate$" />
@@ -243,43 +243,43 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.TestContentUpdate in code.byted.org/learning_fe/pathfinder-api/services/content" />
-        <item itemvalue="Go Test.TestContentCreate in code.byted.org/learning_fe/pathfinder-api/services/content" />
-        <item itemvalue="Go Test.TestContentDelete in code.byted.org/learning_fe/pathfinder-api/services/content" />
-        <item itemvalue="Go Test.TestContentFindOne in code.byted.org/learning_fe/pathfinder-api/services/content" />
+        <item itemvalue="Go Test.TestContentCreate in github.com/sundogrd/content-api/services/content" />
+        <item itemvalue="Go Test.TestContentUpdate in github.com/sundogrd/content-api/services/content" />
+        <item itemvalue="Go Test.TestContentDelete in github.com/sundogrd/content-api/services/content" />
+        <item itemvalue="Go Test.TestContentFindOne in github.com/sundogrd/content-api/services/content" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
     <history-entry file="TestContentCreate_in_code_byted_org_learning_fe_pathfinder-api_services_content - 2018.12.31 at 19h 22m 54s.xml">
-      <configuration name="TestContentCreate in code.byted.org/learning_fe/pathfinder-api/services/content" configurationId="GoTestRunConfiguration" />
+      <configuration name="TestContentCreate in github.com/sundogrd/content-api/services/content" configurationId="GoTestRunConfiguration" />
     </history-entry>
     <history-entry file="TestContentCreate_in_code_byted_org_learning_fe_pathfinder-api_services_content - 2018.12.31 at 19h 24m 37s.xml">
-      <configuration name="TestContentCreate in code.byted.org/learning_fe/pathfinder-api/services/content" configurationId="GoTestRunConfiguration" />
+      <configuration name="TestContentCreate in github.com/sundogrd/content-api/services/content" configurationId="GoTestRunConfiguration" />
     </history-entry>
     <history-entry file="TestContentFindOne_in_code_byted_org_learning_fe_pathfinder-api_services_content - 2018.12.31 at 19h 26m 55s.xml">
-      <configuration name="TestContentFindOne in code.byted.org/learning_fe/pathfinder-api/services/content" configurationId="GoTestRunConfiguration" />
+      <configuration name="TestContentFindOne in github.com/sundogrd/content-api/services/content" configurationId="GoTestRunConfiguration" />
     </history-entry>
     <history-entry file="TestContentCreate_in_code_byted_org_learning_fe_pathfinder-api_services_content - 2018.12.31 at 19h 28m 27s.xml">
-      <configuration name="TestContentCreate in code.byted.org/learning_fe/pathfinder-api/services/content" configurationId="GoTestRunConfiguration" />
+      <configuration name="TestContentCreate in github.com/sundogrd/content-api/services/content" configurationId="GoTestRunConfiguration" />
     </history-entry>
     <history-entry file="TestContentCreate_in_code_byted_org_learning_fe_pathfinder-api_services_content - 2018.12.31 at 19h 29m 53s.xml">
-      <configuration name="TestContentCreate in code.byted.org/learning_fe/pathfinder-api/services/content" configurationId="GoTestRunConfiguration" />
+      <configuration name="TestContentCreate in github.com/sundogrd/content-api/services/content" configurationId="GoTestRunConfiguration" />
     </history-entry>
     <history-entry file="TestContentCreate_in_code_byted_org_learning_fe_pathfinder-api_services_content - 2018.12.31 at 19h 36m 22s.xml">
-      <configuration name="TestContentCreate in code.byted.org/learning_fe/pathfinder-api/services/content" configurationId="GoTestRunConfiguration" />
+      <configuration name="TestContentCreate in github.com/sundogrd/content-api/services/content" configurationId="GoTestRunConfiguration" />
     </history-entry>
     <history-entry file="TestContentCreate_in_code_byted_org_learning_fe_pathfinder-api_services_content - 2018.12.31 at 19h 36m 24s.xml">
-      <configuration name="TestContentCreate in code.byted.org/learning_fe/pathfinder-api/services/content" configurationId="GoTestRunConfiguration" />
+      <configuration name="TestContentCreate in github.com/sundogrd/content-api/services/content" configurationId="GoTestRunConfiguration" />
     </history-entry>
     <history-entry file="TestContentDelete_in_code_byted_org_learning_fe_pathfinder-api_services_content - 2018.12.31 at 19h 36m 46s.xml">
-      <configuration name="TestContentDelete in code.byted.org/learning_fe/pathfinder-api/services/content" configurationId="GoTestRunConfiguration" />
+      <configuration name="TestContentDelete in github.com/sundogrd/content-api/services/content" configurationId="GoTestRunConfiguration" />
     </history-entry>
     <history-entry file="TestContentCreate_in_code_byted_org_learning_fe_pathfinder-api_services_content - 2018.12.31 at 19h 36m 56s.xml">
-      <configuration name="TestContentCreate in code.byted.org/learning_fe/pathfinder-api/services/content" configurationId="GoTestRunConfiguration" />
+      <configuration name="TestContentCreate in github.com/sundogrd/content-api/services/content" configurationId="GoTestRunConfiguration" />
     </history-entry>
     <history-entry file="TestContentUpdate_in_code_byted_org_learning_fe_pathfinder-api_services_content - 2018.12.31 at 19h 37m 07s.xml">
-      <configuration name="TestContentUpdate in code.byted.org/learning_fe/pathfinder-api/services/content" configurationId="GoTestRunConfiguration" />
+      <configuration name="TestContentUpdate in github.com/sundogrd/content-api/services/content" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">

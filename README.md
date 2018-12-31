@@ -6,7 +6,7 @@ A Go RESTful API server with gin and docker
 
 ````
 $ cd $GOPATH/src
-$ git clone git@code.byted.org:learning_fe/pathfinder-api.git
+$ git clone https://github.com/sundogrd/content-api.git
 ````
 
 ## 启动开发环境
